@@ -6,6 +6,7 @@ resource "aws_instance" "cmtr-ghjc0xhd-ec2" {
   vpc_security_group_ids = ["sg-04949f18514fd9783"]
 
   tags = {
+    Name    = "cmtr-ghjc0xhd-ec2"
     Project = "epam-tf-lab"
     ID      = "cmtr-ghjc0xhd"
   }
